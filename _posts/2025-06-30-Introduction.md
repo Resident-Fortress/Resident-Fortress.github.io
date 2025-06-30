@@ -2,7 +2,7 @@
 
 Hey there! This is my first blog post on this site. Working off of my previous decade of experience, 
 I have a vested interest in seeing how Terraform would work on my infrastructure. This post is short and sweet but will detail a large portion of what I wish to accomplish.
-The final product for learning Terraform is the ability to enter a command and fully deploy different LXC containers and Virutal Machines that are custom tailored to fit for my homelab needs.
+The final product for learning Terraform is the ability to enter a command and fully deploy different LXC containers and Virtual Machines that are custom tailored to fit for my homelab needs.
 <br>
 Currently the setup goes as this:
    - Custom i7-12700k Proxmox Host
@@ -17,3 +17,5 @@ Currently the setup goes as this:
        - 15TB combined of NVMe storage and SATA SSDs
        - Mellanox ConnectX-5 EN 25GbE (Networked p2p to my i7-12700k host)
 <br>
+
+The end goal is to have a full scalable system that allows me to quickly deploy Capture the Flag, malware analysis, and general purpose VMs for stuff like development and whatnot.
